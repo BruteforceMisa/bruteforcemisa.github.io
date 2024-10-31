@@ -1,18 +1,12 @@
 ---
 layout: page
-title: About
+title: About BruteforceMisa
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Welcome to my website! I'm an enthousiastic Artificial Intelligence & Cyber Security student. On this website, I try to explain concepts within this field in a comprehensive and intuitive way using daily examples. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I've studied at the Radboud University, where I've obtained my Bachelor's degree in Artificial Intelligence and two Master's Degrees in Artificial Intelligence and Cyber Security.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+In my free time, I'd like to do sports, go for hikes, make music, solve puzzles and read books. 
 
-
-[jekyll-organization]: https://github.com/jekyll
