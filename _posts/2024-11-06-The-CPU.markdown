@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "The CPU"
+date:   2024-11-06 11:04:02 +0200
+categories: hardware security cpu 
+---
+
+The CPU is the computational unit of a computer. It executes a set of instructions, which the programmer directly or indirectly gives. An example of an instruction would be “read the contents of location x in memory”.
+
+This instruction needs to be encoded such that the CPU understands what it should be doing. In the basis, a computer operates with current flowing through the device. If we can manipulate the current, we can encode a message. For example, a high current would be 1 and a low current would be 0. With transistors and logic gates, chip/circuit designers encode different operations into a CPU.
+
+For our example, let us assume that the operation “READ” is encoded as “00110010”, followed by the location. The decoder component within the CPU would select the correct instruction and execute it.
+
+![image](/assets/images/CPU.png) 
+
+<b>Keywords</b>

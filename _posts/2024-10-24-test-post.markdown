@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Test post!"
-date:   2024-10-24 08:52:02 +0200
-categories: Hardware security
----
-
-Dit is een test post. Op deze plekken komen straks kleine blog posts met explainers te staan. 
