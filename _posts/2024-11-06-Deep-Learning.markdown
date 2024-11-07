@@ -5,7 +5,7 @@ date:   2024-11-06 12:47:02 +0200
 categories: ai
 ---
 
-By now, you probably have the feeling why the terminology of neural networks and deep learning is used interchangeably. In fact, the neural network is “learning” the decision boundary based on how many datapoints are classified correctly and how many are classified incorrectly. This is done in two steps: the <i>forward pass</i> and the<i>backpropagation step</i>. In the forward pass, the neural network classifies all datapoints given its features. In the backpropagation step, we check how many datapoints are classified correctly. At one point in time, it is not possible to classify more datapoints correctly than we already have: this is our optimum.
+By now, you probably have the feeling why the terminology of neural networks and deep learning is used interchangeably. In fact, the neural network is “learning” the decision boundary based on how many datapoints are classified correctly and how many are classified incorrectly. This is done in two steps: the <i>forward pass</i> and the <i>backpropagation step</i>. In the forward pass, the neural network classifies all datapoints given its features. In the backpropagation step, we check how many datapoints are classified correctly. At one point in time, it is not possible to classify more datapoints correctly than we already have: this is our optimum.
 
 But how do we build such a network? A neural network consists of <i>nodes/neurons</i> which are organised in layers. A neural network consists of one input layer, several hidden layers and one output layer. The amount of nodes chosen for the network depends on your dataset. For our coffee & tea dataset, we would define our network as follows:
 

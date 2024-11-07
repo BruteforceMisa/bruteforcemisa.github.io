@@ -18,6 +18,4 @@ For our example, let us assume that the operation “READ” is encoded as “00
 <li>Instruction - the order given to the CPU to execute </li>
 <li>Instruction set - the list of available instructions and their encodings in a CPU </li> 
 <li>Clock - the mechanism in the CPU which regulates when the new bit-value </li>
-
-
 </ul>

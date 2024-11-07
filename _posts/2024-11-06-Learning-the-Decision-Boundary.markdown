@@ -18,7 +18,7 @@ Finding a deep neural network with the best decision boundary is therefore an <i
 
 <b>Keywords</b>
 <ul>
-<li>neural network - a technique inspired on the human brain designed for finding patterns in data</li>
-<li>gradient descent - a technique for finding the optimum of a function interatively</li>
-<li>optimisation problem - the problem of finding the best solution from all feasible solutions</li>
+<li>Neural network - a technique inspired on the human brain designed for finding patterns in data</li>
+<li>Gradient descent - a technique for finding the optimum of a function interatively</li>
+<li>Optimisation problem - the problem of finding the best solution from all feasible solutions</li>
 </ul>

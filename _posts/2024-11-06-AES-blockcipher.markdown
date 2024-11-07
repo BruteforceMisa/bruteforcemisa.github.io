@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AES: a Block Cipher"
+title:  "Introduction to AES: a Block Cipher"
 date:   2024-11-06 12:27:02 +0200
 categories: encryption
 ---
