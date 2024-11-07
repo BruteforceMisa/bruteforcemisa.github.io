@@ -5,7 +5,7 @@ date:   2024-11-06 12:29:02 +0200
 categories: hardware security AES  
 ---
 
-In this post, we are going to zoom in on the inner workings of one AES block. AES operates in rounds, which are usually 10, 12 or 14 rounds (matching with AES-128, AES-192 and AES-256). The output of each round is xor’ed with a subkey, which is derived from the main key using the key scheduler. How the key scheduler exactly works, is out of the scope for this blog.
+In this post, we are going to zoom in on the inner workings of one AES block. AES operates in rounds, which are usually 10, 12 or 14 rounds (matching with AES-128, AES-192 and AES-256). <!--more--> The output of each round is xor’ed with a subkey, which is derived from the main key using the key scheduler. How the key scheduler exactly works, is out of the scope for this blog.
 AES consists of four main operations: AddRoundKey, SubBytes, ShiftRows & MixColumns. These functions are repeated for the number of rounds. A visualisation of these functions is shown below.
 
 ![image](/assets/images/AESinners.png) 
