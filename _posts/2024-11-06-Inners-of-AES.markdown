@@ -10,7 +10,7 @@ AES consists of four main operations: AddRoundKey, SubBytes, ShiftRows & MixColu
 
 ![image](/assets/images/AESinners.png) 
 
-AddRoundKey is the function where the subkey is added to our data. SubBytes is a function where each byte of our data is mapped to another value. ShiftRows and Mixcolumns are functions where our data is shuffled to add dependencies within the encryption for security. The output of one block of AES-128 after 10 rounds, is the ciphertext of this block. As said in the previous posts, depending on the size of the plaintext, this block may be exectuted multiple times.
+AddRoundKey is the function where the subkey is added to our data. SubBytes is a function where each byte of our data is mapped to another value. ShiftRows and Mixcolumns are functions where our data is shuffled to add dependencies within the encryption for security. The output of one block of AES-128 after 10 rounds, is the ciphertext of this block. As said in the previous posts, depending on the size of the plaintext, this block may be executed multiple times.
 
 In the next post, we will zoom in on the SubBytes function.
 

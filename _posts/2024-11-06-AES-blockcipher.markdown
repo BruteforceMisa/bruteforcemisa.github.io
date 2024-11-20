@@ -24,6 +24,6 @@ Each AES block has as input the plaintext and the key, and outputs a <i>cipherte
 <li>Ciphertext - the text after encryption, which is only decodable for parties having access to the key</li>
 <li>Encryption - technique for encoding information in such a way that only authorised parties can obtain the content </li>
 <li>Key - the secret value used for encoding & decoding information </li>
-<li>Plaintext - the text before encryption, readable for all parites </li>
+<li>Plaintext - the text before encryption, readable for all parties </li>
 
 </ul>
