@@ -1,4 +1,4 @@
-<h1 align="center">🌲 Linktree</h1>
+<h1 align="center">Linktree</h1>
 
 
 ---
