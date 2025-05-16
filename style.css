@@ -16,7 +16,7 @@ body {
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
     /* background-image: url('https://bit.ly/3nFVqJh'); */
     opacity: 0;
-    animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
+    animation: 1s ease-out var(--delay) 1 transitionAnimation; 
     animation-fill-mode: forwards;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +98,7 @@ body {
     background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear var(--delay) infinite;
+    animation: animate 6s linear var(--delay) infinite;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -109,29 +109,17 @@ body {
 @keyframes transitionAnimation {
     0% {
         opacity: 0;
-        transform: translateY(-10px);
     }
     100% {
         opacity: 1;
-        transform: translateY(0);
     }
 }
-
 @keyframes animate {
     0% {
       background-position: -500%;
     }
     100% {
       background-position: 500%;
-    }
-}
-
-@keyframes animStar {
-    from {
-        transform: translateY(0px);
-    }
-    to {
-        transform: translateY(-2000px);
     }
 }
 
